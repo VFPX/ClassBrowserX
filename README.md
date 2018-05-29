@@ -32,6 +32,16 @@ Then you may exit and start VFP again and start using ClassBrowserX
 
 ## Help text from the BrowserX.PRG
 
+The "mode" determines how BrowserX.prg works. By default, it behaves the same as the native Class Browser. However, you can hold down a combination of the Shift, Ctrl, and Alt keys when clicking the Export button to set the mode:
+
+* 1 = SHIFT
+* 2 = CTRL
+* 4 = ALT
+
+So, holding down Shift and Ctrl would be mode 3.
+
+Here are the settings:
+
 * 0 = Old MS way. Doesn't support controls in container which is inside of another container. No dataenvironment support.
 
 * NEW MODES 2, 3, 4 and 5:
